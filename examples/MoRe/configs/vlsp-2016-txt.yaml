@@ -6,7 +6,7 @@ experiment:
 task: named-entity-recognition
 
 dataset:
-  data_file: 'https://huggingface.co/datasets/jester6136/vlsp-more/resolve/main/VLSP2016-txt.zip'
+  data_file: 'https://huggingface.co/datasets/minhSpaceX/VLSP/resolve/main/VLSP2016-txt.zip'
   data_type: conll
 
 preprocessor:
