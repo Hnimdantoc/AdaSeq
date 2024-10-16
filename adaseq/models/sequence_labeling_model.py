@@ -122,7 +122,7 @@ class SequenceLabelingModel(Model):
         else:
             logits = self._forward(tokens)
             crf_mask = (
-                get_tokens_mask(tokens, logits.size(1)) if origin_mask is None else origin_mask
+                get_tokens_mask(tokens, logits.size(1)) if origin_mask is not None else origin_mask
             )
 
         if self.training and label_ids is not None:
