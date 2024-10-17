@@ -53,3 +53,7 @@ evaluation:
     - type: ner-dumper
       model_type: sequence_labeling
       dump_format: conll
+
+parallel:
+  type: DistributedDataParallel
+  find_unused_parameters: true
