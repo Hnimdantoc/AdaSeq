@@ -54,6 +54,6 @@ evaluation:
       model_type: sequence_labeling
       dump_format: conll
 
-# parallel:
-#   type: DistributedDataParallel
-#   find_unused_parameters: true
+parallel:
+  type: DistributedDataParallel
+  find_unused_parameters: true
