@@ -30,9 +30,9 @@ model:
   temperature: 1
 
 train:
-  max_epochs: 15
+  max_epochs: 2
   dataloader:
-    batch_size_per_gpu: 2
+    batch_size_per_gpu: 4
   optimizer:
     type: AdamW
     lr: 5.0e-6
